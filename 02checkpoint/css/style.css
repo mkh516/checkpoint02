@@ -1,0 +1,378 @@
+body {
+  padding-top: 56px;
+  font-family: 'Mukta Malar', sans-serif;
+  /* overflow-x: hidden; */
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: bold;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.get-workout-btn {
+  border-radius: 5px;
+  background-color: #E32F41;
+  ;
+  outline: none;
+  border: none;
+  padding: 18px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.get-workout-btn:hover {
+  background-color: #BE1E2F;
+}
+
+.get-workout-btn-margin {
+  margin: 60px;
+  margin-bottom: 75px;
+}
+
+.large-header-centered {
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.font-twentyfour {
+  font-size: 24px;
+}
+
+.font-twenty {
+  font-size: 20px;
+}
+
+.font-sixteen {
+  font-size: 16px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.italicize {
+  font-style: italic;
+}
+
+.twenty-pad {
+  padding: 20%;
+}
+
+.red-text {
+  color: #D02033;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.section {
+  margin: 75px 10px;
+}
+
+.border-right {
+  border-right: solid 1px;
+}
+
+/*nav stufff*/
+
+.header-logo {
+  height: 100%;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+nav {
+  font-size: 16px;
+}
+
+.navbar-brand {
+  padding: 5px 5px;
+  margin-left: 10px;
+  background-image: url("../images/header-logo.png");
+  height: 56px;
+  width: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.navbar-toggle {
+  outline: none;
+  border: none;
+}
+
+/*end nav*/
+
+/*home section*/
+
+.main {
+  min-height: 100vh;
+  background-image: url("../images/intro-bg.jpg");
+  color: white;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.header-image {
+  display: none;
+}
+
+/*different section*/
+
+.advantages {
+  margin: 35px 0;
+}
+
+.advantages-square {
+  position: relative;
+  width: 100%;
+  border: solid;
+  background-position: center;
+  background-size: cover;
+}
+
+.advantages-square:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.advantages-square:hover {
+  opacity: .4;
+}
+
+.advantages-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 30px;
+}
+
+.adv-caption {
+  padding: 0 20px;
+}
+
+/*adv images*/
+
+.advantages-one {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/adv-bgs/adv-bg-1.jpg");
+}
+
+.advantages-two {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/adv-bgs/adv-bg-2.jpg");
+}
+
+.advantages-three {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/adv-bgs/adv-bg-3.jpg");
+}
+
+/*results section*/
+
+.results-block {
+  margin-bottom: 30px;
+}
+
+.results-content {}
+
+/*perks section*/
+
+.perk {
+  display: flex;
+}
+
+.perk h4 {
+  font-weight: bolder;
+  margin-bottom: 1px;
+}
+
+.perks-image {
+  margin: 1px 20px 1px 10px;
+  width: 50px;
+  vertical-align: top;
+  text-align: right;
+  padding: 13px 20px 0 0;
+}
+
+/*facts*/
+
+.quick-facts {
+  background-color: #F2F2F2;
+  padding: 60px;
+}
+
+.facts-block {
+  margin-top: 40px;
+}
+
+.facts-data {
+  font-size: 44px;
+  font-weight: bold;
+  margin-bottom: -15px;
+}
+
+.fact-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/*as seen on*/
+
+.as-seen-on-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.as-seen-on-images img {
+  margin: 10px;
+}
+
+.getworkout-section {
+  background-color: #F2F2F2;
+  padding: 5px;
+  margin-bottom: -20px;
+}
+
+/*footer*/
+
+footer {
+  background-color: #303030;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: #CCCCCC;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #BE1E2F;
+}
+
+.social-media {
+  font-size: 24px;
+  justify-content: space-between;
+}
+
+/*media queries*/
+
+/* Medium and up (Tablets) */
+
+@media (min-width: 768px) {
+  .large-header-centered {
+    font-size: 46px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .header-image {
+    display: inline-block;
+    vertical-align: baseline;
+    width: auto;
+    height: 70px;
+    margin: 0 10px 0 -55px;
+  }
+  /*advantages*/
+  .advantages-section {
+    display: table;
+  }
+  .advantages {
+    display: table-cell;
+  }
+  .advantages-square {
+    height: 300px;
+  }
+  /*results*/
+  .results-block {
+    display: flex;
+    flex-direction: row;
+  }
+  .results-block:nth-child(2n+1) {
+    flex-direction: row-reverse;
+  }
+  .results-img {
+    margin: 10px;
+  }
+  /*perks*/
+  .col-2-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /*facts*/
+  .fact-title {
+    font-size: 24px;
+    text-align: center;
+  }
+  .fact-img-data {
+    flex-direction: row;
+  }
+  .facts-data {
+    margin-left: 10px;
+  }
+  .facts-block {
+    padding: 10px;
+  }
+  .flex-row-large {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  /*footer*/
+  footer {
+    height: 300px;
+    overflow: hidden;
+    line-height: 15px;
+    width: 100%;
+  }
+  .footer-large {
+    display: inline-block;
+    text-align: unset;
+  }
+  .footer-tabl {
+    display: table;
+  }
+  .footer-colm {
+    display: table-cell;
+    padding-right: 10px;
+  }
+  .footer-locations-block {
+    display: flex;
+    flex-direction: row;
+  }
+  .country {
+    margin-right: 15px;
+  }
+  .footer-top-block, .footer-bottom-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .footer-link {
+    margin: 0 10px;
+  }
+  .flex-colm {
+    display: flex;
+    flex-direction: column;
+  }
+  .social-media>a {
+    margin: 3px;
+  }
+}
